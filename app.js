@@ -15,7 +15,17 @@ const totalCountEl = document.getElementById('totalCount');
 let gamesTotal = 0;
 let winsTotal = 0;
 
-// set event listeners 
+// set event listeners
+
+cup1ButtonEl.addEventListener('click', () => {
+    console.log('btn1');
+});
+cup2ButtonEl.addEventListener('click', () => {
+    console.log('btn2');
+});
+cup3ButtonEl.addEventListener('click', () => {
+    console.log('btn3');
+});
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
