@@ -9,32 +9,32 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Make a drawing of your app. Simple "wireframes"**
 ![wireframe](/assets/wireframe.png)
 1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
-  1. header
-  2. main
-    1. cup and button container
-      1. div cup1
-        - img
-        - button
-      2. div cup2
-        - img
-        - button
-      3. div cup3 
-        - img
-        - button
-    2. text
-    3. button container
-      1. buttons for stretch goals
-    4. Table results
-  3. footer
+- header
+- main
+  - cup and button container
+    - div cup1
+      - img
+      - button
+    - div cup2
+      - img
+      - button
+    - div cup3 
+      - img
+      - button
+  - text
+  - button container
+    - buttons for stretch goals
+  - Table results
+- footer
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
 1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
 1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
-  1. on click of any cup buttons
-    - Add event listener
-    - reset style from last game
-    - Update state of img divs and game text
-    - Update dom of img divs and game text
-    - Add row to table
+- on click of any cup buttons
+  - Add event listener
+  - reset style from last game
+  - Update state of img divs and game text
+  - Update dom of img divs and game text
+  - Add row to table
 1) **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
 1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
