@@ -13,14 +13,14 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
   2. main
     1. cup and button container
       1. div cup1
-        1. img
-        2. button
+        - img
+        - button
       2. div cup2
-        1. img
-        2. button
+        - img
+        - button
       3. div cup3 
-        1. img
-        2. button
+        - img
+        - button
     2. text
     3. button container
       1. buttons for stretch goals
