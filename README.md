@@ -7,6 +7,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Making a plan
 
 1) **Make a drawing of your app. Simple "wireframes"**
+![wireframe](/assets/wireframe.png)
 1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
 1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
