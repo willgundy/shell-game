@@ -30,11 +30,11 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
 1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
   1. on click of any cup buttons
-    1. Add event listener
-    2. reset style from last game
-    3. Update state of img divs and game text
-    4. Update dom of img divs and game text
-    5. Add row to table
+    - Add event listener
+    - reset style from last game
+    - Update state of img divs and game text
+    - Update dom of img divs and game text
+    - Add row to table
 1) **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
 1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
