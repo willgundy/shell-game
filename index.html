@@ -14,53 +14,40 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="./assets/big-logo.png" />
+        <div>
+            <h2>Pick a Cup!</h2>
         </div>
     </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
+        <section id="cups-section">
+            <div class="cup-container" id="container-cup0">
+                <img src="assets/cup.png" alt="Cup 1" id="img-cup0">
+                <button id="btn-cup0">Cup 0</button>
+            </div>
+            <div class="cup-container" id="container-cup1">
+                <img src="assets/cup.png" alt="Cup 2" id="img-cup1">
+                <button id="btn-cup1">Cup 1</button>
+            </div>
+            <div class="cup-container" id="container-cup2">
+                <img src="assets/cup.png" alt="Cup 3" id="img-cup2">
+                <button id="btn-cup2">Cup 2</button>
+            </div>
+        </section>
+        <section>
+            <div id="betSection">
+                <section>
+                    <label for="bet">Dollar Bet:</label>
+                    <span>$</span>
+                    <input type="number" id="bet" name="bet" value="10.00" min="0.01" step="0.01">
+                </section>
+                <div id="betText"></div>
+            </div>
+            <section id="guesses-section">
+                <div>Cash: $<span id="cashAmount">100</span></div>
+                <div>Correct: <span id="winCount">0</span></div>
+                <div>Wrong: <span id="lossCount">0</span></div>
+                <div>Total Games: <span id="totalCount">0</span></div>
+            </section>
         </section>
     </main>
     <footer>
