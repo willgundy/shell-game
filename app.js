@@ -45,8 +45,7 @@ cupButtonEl2.addEventListener('click', () => {
 function handleGuess(userGuess, winningCup) {
     //reset cup images
     resetCupImages();
-    //update game and win counts
-    //update cash amount
+    //update game and win counts update cash amount
     let bet = Math.floor(document.getElementById('bet').value);
     gamesTotal++;
     if (userGuess === winningCup) {
