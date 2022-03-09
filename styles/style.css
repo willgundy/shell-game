@@ -132,14 +132,14 @@ button {
     box-shadow: 0 0 1rem #ffc600;
   }
 
-  #betSection {
+#betSection {
       flex-direction: column;
-  }
+}
 
-  .loseText {
+.loseText {
       background-color: red;
   }
 
-  .winText {
+.winText {
     background-color: green;
-}
+    }
