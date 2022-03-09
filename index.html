@@ -33,10 +33,21 @@
                 <button id="btn-cup2">Cup 2</button>
             </div>
         </section>
-        <section id="guesses-section">
-            <div>Correct: <span id="winCount">0</span></div>
-            <div>Wrong: <span id="lossCount">0</span></div>
-            <div>Total: <span id="totalCount">0</span></div>
+        <section>
+            <div id="betSection">
+                <section>
+                    <label for="bet">Dollar Bet:</label>
+                    <span>$</span>
+                    <input type="number" id="bet" name="bet" value="10.00" min="0.01" step="0.01">
+                </section>
+                <div id="betText"></div>
+            </div>
+            <section id="guesses-section">
+                <div>Cash: $<span id="cashAmount">100</span></div>
+                <div>Correct: <span id="winCount">0</span></div>
+                <div>Wrong: <span id="lossCount">0</span></div>
+                <div>Total Games: <span id="totalCount">0</span></div>
+            </section>
         </section>
     </main>
     <footer>

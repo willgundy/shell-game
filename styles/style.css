@@ -3,10 +3,10 @@ body {
     /* feel free to update these css variables for a quick theme */
     
     --color1: white;
-    --color2: white;
+    --color2: black;
     --color3: white;
-    --color4: white;
-    --color5: white;
+    --color4: black;
+    --color5: black;
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -46,15 +46,19 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    color: white;
+    padding: 10px;
 }
 
 #guesses-section {
     flex-direction: column;
+    margin-left: 10em;
+}
+
+#cups-section {
+    margin-top: var(--gutter);
+    margin-bottom: var(--gutter);
 }
 
 .cup-container {
@@ -69,7 +73,7 @@ header {
     justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
-    box-shadow: var(--shadow);
+    box-shadow: grey;
 }
 
 
@@ -99,4 +103,43 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    width: 60px;
+}
+
+button {
+    border: .4rem solid white;
+    border-radius: .25rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    line-height: 3vh;
+    color: white;
+    background: black;
+  }
+
+.button-hover {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+  #betSection {
+      flex-direction: column;
+  }
+
+  .loseText {
+      background-color: red;
+  }
+
+  .winText {
+    background-color: green;
 }
